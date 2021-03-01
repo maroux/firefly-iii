@@ -4295,7 +4295,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.5:
+lodash@4.17.20, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.5:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -6866,15 +6866,15 @@ uuid@^8.3.0:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
-v-calendar@^2.1.5:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/v-calendar/-/v-calendar-2.1.5.tgz#f95f73a9c39f8d49a19c80da5503a77cc72e32e4"
-  integrity sha512-od4wejIDzLQRsb4OJfe/GuMGU1ZzTM9vpaT5suizA0wqL8KQKRMD9mAFsudQUmm5JIo+LH5xV+eNjDAVn+HYpQ==
+v-calendar@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/v-calendar/-/v-calendar-2.2.4.tgz#d552b7e1c90e279b3a1115b88fae7e5e5cc72bbd"
+  integrity sha512-th3g2jAsExroVNZVZ2pCfKh69LQaGi0QxKUzdz+hv/APd6mI0AEKZSF2wwLQSPfB9ypmQ/233shCMCmVI+0D5Q==
   dependencies:
     core-js "^3.6.5"
     date-fns "^2.8.1"
     date-fns-tz "^1.0.12"
-    lodash "^4.17.15"
+    lodash "4.17.20"
 
 v8-compile-cache@^2.1.1:
   version "2.2.0"
