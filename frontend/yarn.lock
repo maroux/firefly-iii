@@ -6950,10 +6950,10 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue-typeahead-bootstrap@^2.5.5:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/vue-typeahead-bootstrap/-/vue-typeahead-bootstrap-2.6.1.tgz#5796d5f3affe37522f6767404696115f94f8baeb"
-  integrity sha512-JBOQJB55NQ2PkLWv040OqwxTGHYWJrmpPxyUeRRrfooPhcBBPH5C4GSYvCEMqT4DrN8KelKu307BshA1WXSBgA==
+vue-typeahead-bootstrap@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/vue-typeahead-bootstrap/-/vue-typeahead-bootstrap-2.8.0.tgz#ff14c7cf63b56972c7df6b01443c447e60535730"
+  integrity sha512-GCGY6ASqlf/JSyWrmvWM1BAZsTUjuh2xjLb0YXXSbhb2/71b0YZHyVrLs7pv8A9swjnLv4t63ijwBlj+C6iEQg==
   dependencies:
     lodash "^4.17.20"
     resize-observer-polyfill "^1.5.0"
