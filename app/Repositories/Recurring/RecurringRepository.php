@@ -513,7 +513,7 @@ class RecurringRepository implements RecurringRepositoryInterface
     {
         $search = $this->user->recurrences();
         if ('' !== $query) {
-            $search->where('recurrences.title', 'LIKE', sprintf('%%%s%%', $query));
+            $search->where('recurrences.title', 'ILIKE', sprintf('%%%s%%', $query));
         }
         $search
             ->orderBy('recurrences.title', 'ASC');

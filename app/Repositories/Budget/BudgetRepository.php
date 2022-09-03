@@ -57,7 +57,7 @@ class BudgetRepository implements BudgetRepositoryInterface
     {
         $search = $this->user->budgets();
         if ('' !== $query) {
-            $search->where('name', 'LIKE', sprintf('%%%s', $query));
+            $search->where('name', 'ILIKE', sprintf('%%%s', $query));
         }
         $search->orderBy('order', 'ASC')
                ->orderBy('name', 'ASC')->where('active', true);
@@ -72,7 +72,7 @@ class BudgetRepository implements BudgetRepositoryInterface
     {
         $search = $this->user->budgets();
         if ('' !== $query) {
-            $search->where('name', 'LIKE', sprintf('%s%%', $query));
+            $search->where('name', 'ILIKE', sprintf('%s%%', $query));
         }
         $search->orderBy('order', 'ASC')
                ->orderBy('name', 'ASC')->where('active', true);
@@ -216,7 +216,7 @@ class BudgetRepository implements BudgetRepositoryInterface
         }
         $query = sprintf('%%%s%%', $name);
 
-        return $this->user->budgets()->where('name', 'LIKE', $query)->first();
+        return $this->user->budgets()->where('name', 'ILIKE', $query)->first();
     }
 
     /**
@@ -304,7 +304,7 @@ class BudgetRepository implements BudgetRepositoryInterface
 
         $search = $this->user->budgets();
         if ('' !== $query) {
-            $search->where('name', 'LIKE', sprintf('%%%s%%', $query));
+            $search->where('name', 'ILIKE', sprintf('%%%s%%', $query));
         }
         $search->orderBy('order', 'ASC')
                ->orderBy('name', 'ASC')->where('active', true);

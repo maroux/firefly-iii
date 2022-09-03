@@ -261,7 +261,7 @@ class TagRepository implements TagRepositoryInterface
     {
         $search = sprintf('%%%s%%', $query);
 
-        return $this->user->tags()->where('tag', 'LIKE', $search)->get(['tags.*']);
+        return $this->user->tags()->where('tag', 'ILIKE', $search)->get(['tags.*']);
     }
 
     /**
@@ -278,7 +278,7 @@ class TagRepository implements TagRepositoryInterface
         $tags = $this->user->tags()->orderBy('tag', 'ASC');
         if ('' !== $query) {
             $search = sprintf('%%%s%%', $query);
-            $tags->where('tag', 'LIKE', $search);
+            $tags->where('tag', 'ILIKE', $search);
         }
 
         return $tags->take($limit)->get('tags.*');

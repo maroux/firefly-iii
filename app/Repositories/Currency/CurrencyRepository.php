@@ -459,7 +459,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     {
         $query = TransactionCurrency::where('enabled', true);
         if ('' !== $search) {
-            $query->where('name', 'LIKE', sprintf('%%%s%%', $search));
+            $query->where('name', 'ILIKE', sprintf('%%%s%%', $search));
         }
 
         return $query->take($limit)->get();

@@ -692,7 +692,7 @@ class AccountRepository implements AccountRepositoryInterface
             $parts = explode(' ', $query);
             foreach ($parts as $part) {
                 $search = sprintf('%%%s%%', $part);
-                $dbQuery->where('name', 'LIKE', $search);
+                $dbQuery->where('name', 'ILIKE', $search);
             }
 
         }
@@ -723,11 +723,11 @@ class AccountRepository implements AccountRepositoryInterface
                 $search = sprintf('%%%s%%', $part);
                 $dbQuery->where(
                     function (EloquentBuilder $q1) use ($search) {
-                        $q1->where('accounts.iban', 'LIKE', $search);
+                        $q1->where('accounts.iban', 'ILIKE', $search);
                         $q1->orWhere(
                             function (EloquentBuilder $q2) use ($search) {
                                 $q2->where('account_meta.name', '=', 'account_number');
-                                $q2->where('account_meta.data', 'LIKE', $search);
+                                $q2->where('account_meta.data', 'ILIKE', $search);
                             }
                         );
                     }

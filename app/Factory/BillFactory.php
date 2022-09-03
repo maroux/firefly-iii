@@ -139,7 +139,7 @@ class BillFactory
      */
     public function findByName(string $name): ?Bill
     {
-        return $this->user->bills()->where('name', 'LIKE', sprintf('%%%s%%', $name))->first();
+        return $this->user->bills()->where('name', 'ILIKE', sprintf('%%%s%%', $name))->first();
     }
 
     /**
