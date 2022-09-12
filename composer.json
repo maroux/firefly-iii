@@ -100,7 +100,7 @@
     "pragmarx/google2fa": "^8.0",
     "predis/predis": "^1.1",
     "ramsey/uuid": "^4.1",
-    "rcrowe/twigbridge": "^0.12.1"
+    "rcrowe/twigbridge": "^0.14.0"
   },
   "require-dev": {
     "barryvdh/laravel-debugbar": "^3.3",
