@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
-            "version": "2.0.3",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Bacon/BaconQrCode.git",
-                "reference": "3e9d791b67d0a2912922b7b7c7312f4b37af41e4"
+                "reference": "d70c840f68657ce49094b8d91f9ee0cc07fbf66c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Bacon/BaconQrCode/zipball/3e9d791b67d0a2912922b7b7c7312f4b37af41e4",
-                "reference": "3e9d791b67d0a2912922b7b7c7312f4b37af41e4",
+                "url": "https://api.github.com/repos/Bacon/BaconQrCode/zipball/d70c840f68657ce49094b8d91f9ee0cc07fbf66c",
+                "reference": "d70c840f68657ce49094b8d91f9ee0cc07fbf66c",
                 "shasum": ""
             },
             "require": {
@@ -26,8 +26,9 @@
                 "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "phly/keep-a-changelog": "^1.4",
+                "phly/keep-a-changelog": "^2.1",
                 "phpunit/phpunit": "^7 | ^8 | ^9",
+                "spatie/phpunit-snapshot-assertions": "^4.2.9",
                 "squizlabs/php_codesniffer": "^3.4"
             },
             "suggest": {
@@ -55,9 +56,9 @@
             "homepage": "https://github.com/Bacon/BaconQrCode",
             "support": {
                 "issues": "https://github.com/Bacon/BaconQrCode/issues",
-                "source": "https://github.com/Bacon/BaconQrCode/tree/2.0.3"
+                "source": "https://github.com/Bacon/BaconQrCode/tree/2.0.7"
             },
-            "time": "2020-10-30T02:02:47+00:00"
+            "time": "2022-03-14T02:02:36+00:00"
         },
         {
             "name": "brick/math",
@@ -11479,5 +11480,5 @@
         "ext-xml": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
