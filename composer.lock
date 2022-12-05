@@ -1494,16 +1494,16 @@
         },
         {
             "name": "jc5/recovery",
-            "version": "v2.0.0",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JC5/recovery.git",
-                "reference": "5a5fedc54851103c3bad6b1f886f35ff736345d1"
+                "reference": "33e7f314fdf0c43db34a17e5757d19190815b363"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JC5/recovery/zipball/5a5fedc54851103c3bad6b1f886f35ff736345d1",
-                "reference": "5a5fedc54851103c3bad6b1f886f35ff736345d1",
+                "url": "https://api.github.com/repos/JC5/recovery/zipball/33e7f314fdf0c43db34a17e5757d19190815b363",
+                "reference": "33e7f314fdf0c43db34a17e5757d19190815b363",
                 "shasum": ""
             },
             "require": {
@@ -1562,9 +1562,9 @@
                 "two factor auth"
             ],
             "support": {
-                "source": "https://github.com/JC5/recovery/tree/v2.0.0"
+                "source": "https://github.com/JC5/recovery/tree/v2.1.0"
             },
-            "time": "2020-12-17T05:27:08+00:00"
+            "time": "2021-01-23T06:04:19+00:00"
         },
         {
             "name": "laravel/framework",
@@ -11479,5 +11479,5 @@
         "ext-xml": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
