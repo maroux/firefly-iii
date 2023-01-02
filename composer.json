@@ -103,7 +103,7 @@
     "rcrowe/twigbridge": "^0.12.1"
   },
   "require-dev": {
-    "barryvdh/laravel-debugbar": "^3.3",
+    "barryvdh/laravel-debugbar": "^3.7",
     "barryvdh/laravel-ide-helper": "2.*",
     "ergebnis/phpstan-rules": "^0.15.0",
     "filp/whoops": "2.*",
