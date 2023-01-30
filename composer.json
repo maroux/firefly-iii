@@ -92,7 +92,7 @@
     "jc5/recovery": "^2",
     "laravel/framework": "^8.0",
     "laravel/passport": "10.*",
-    "laravel/ui": "^3.0",
+    "laravel/ui": "^3.4",
     "laravelcollective/html": "6.*",
     "league/commonmark": "1.*",
     "league/csv": "^9.6",
