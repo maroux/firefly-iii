@@ -6353,10 +6353,10 @@ uglify-js@3.4.x:
     commander "~2.19.0"
     source-map "~0.6.1"
 
-uiv@^1.1:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/uiv/-/uiv-1.1.5.tgz#4815a5a992723d177be8958714dfde65abbc5ad4"
-  integrity sha512-R3uBj4w19PY7TRGxBUhj0Pey6yNMsb5tktDu8ZBf3C5BqcgIdhcJsR+f6glUTE6g5LuUnSxiNh9QNXO5d5U3xg==
+uiv@^1.4:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/uiv/-/uiv-1.4.3.tgz#41483db1af195d01e64f95b6bf6d60628c8950c3"
+  integrity sha512-xLYwuvL9h67vSh4NHg4UyW2fzmYFqg+2/5S++83dWH2gDnxBytwsSx+65uOUlWfG8OWPTVhJs2b9T5blm4ubnQ==
   dependencies:
     portal-vue "^2.1.7"
     vue-functional-data-merge "^3.0.0"
