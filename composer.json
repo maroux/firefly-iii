@@ -113,7 +113,7 @@
     "nunomaduro/larastan": "^0.6.2",
     "phpstan/phpstan": "^0.12.34",
     "phpstan/phpstan-deprecation-rules": "^0.12.5",
-    "phpunit/phpunit": "^9.2",
+    "phpunit/phpunit": "^9.6",
     "roave/security-advisories": "dev-master",
     "thecodingmachine/phpstan-strict-rules": "^0.12.0",
     "vimeo/psalm": "^4.1"
